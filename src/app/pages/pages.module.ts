@@ -7,6 +7,8 @@ import { KanbanBoardComponent } from './kanban-board/kanban-board.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MailboxComponent } from './mailbox/mailbox.component';
 import { WidgetsComponent } from './widgets/widgets.component';
+import { GeneralComponent } from './general/general.component';
+import { ExtraComponent } from './extra/extra.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { WidgetsComponent } from './widgets/widgets.component';
     DashboardComponent,
     KanbanBoardComponent,
     MailboxComponent,
-    WidgetsComponent
+    WidgetsComponent,
+    GeneralComponent,
+    ExtraComponent
   ],
   imports: [
     CommonModule,

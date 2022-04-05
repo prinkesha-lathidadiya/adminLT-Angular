@@ -102,6 +102,94 @@
     margin-right: auto;
     margin-left: auto;
 }
+.small-box>.small-box-footer:hover {
+    background-color: rgba(0,0,0,.15);
+    color: #fff;
+}
+.small-box>.small-box-footer {
+    background-color: rgba(0,0,0,.1);
+    color: rgba(255,255,255,.8);
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+.bg-info, .bg-info>a {
+    color: #fff!important;
+}
+.jqvmap-zoomin, .jqvmap-zoomout {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    color: #444;
+    height: 15px;
+    width: 15px;
+    padding: 1px 2px;
+}
+.jqvmap-zoomout {
+    top: 30px;
+}
+.jqvmap-zoomin, .jqvmap-zoomout {
+    position: absolute;
+    left: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #000;
+    padding: 3px;
+    color: #fff;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    line-height: 10px;
+    text-align: center;
+}
+.card-body::after, .card-footer::after, .card-header::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-group.show .btn-tool, .btn-tool:hover {
+    color: #495057;
+}
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.fa-minus:before {
+    content: "\f068";
+}
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
 .content-wrapper>.content {
     padding: 0 0.5rem;
 }
