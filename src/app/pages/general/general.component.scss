@@ -1496,3 +1496,32 @@ dl, ol, ul {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
 }}
+.color-palette:hover span {
+    display: block;
+}
+.color-palette span {
+    display: none;
+    font-size: 12px;
+}
+.pagination-month .page-item .page-link {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    box-shadow: none;
+}
+.page-link:hover {
+    z-index: 2;
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}

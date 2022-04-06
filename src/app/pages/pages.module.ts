@@ -9,6 +9,9 @@ import { MailboxComponent } from './mailbox/mailbox.component';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { GeneralComponent } from './general/general.component';
 import { ExtraComponent } from './extra/extra.component';
+import { LayoutOptionComponent } from './layout-option/layout-option.component';
+import { GeneralFormComponent } from './general-form/general-form.component';
+import { PageComponent } from './page/page.component';
 
 
 @NgModule({
@@ -18,7 +21,10 @@ import { ExtraComponent } from './extra/extra.component';
     MailboxComponent,
     WidgetsComponent,
     GeneralComponent,
-    ExtraComponent
+    ExtraComponent,
+    LayoutOptionComponent,
+    GeneralFormComponent,
+    PageComponent
   ],
   imports: [
     CommonModule,
