@@ -131,21 +131,7 @@
 .jqvmap-zoomout {
     top: 30px;
 }
-.jqvmap-zoomin, .jqvmap-zoomout {
-    position: absolute;
-    left: 10px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    background: #000;
-    padding: 3px;
-    color: #fff;
-    width: 10px;
-    height: 10px;
-    cursor: pointer;
-    line-height: 10px;
-    text-align: center;
-}
+
 .card-body::after, .card-footer::after, .card-header::after {
     display: block;
     clear: both;
@@ -161,9 +147,15 @@
     color: #495057;
 }
 .btn:hover {
-    color: #212529;
+    color: #ffff;
     text-decoration: none;
 }
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
 }
@@ -173,6 +165,66 @@
 .badge-primary {
     color: #fff;
     background-color: #007bff;
+}
+.ion-bag:before {
+    content: "\f110";
+}
+.small-box .icon>i.fa, .small-box .icon>i.fab, .small-box .icon>i.fad, .small-box .icon>i.fal, .small-box .icon>i.far, .small-box .icon>i.fas, .small-box .icon>i.ion {
+    font-size: 70px;
+    top: 20px;
+}
+.small-box .icon>i {
+    font-size: 90px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+    transition: transform .3s linear,-webkit-transform .3s linear;
+}
+.ion, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-circle:before, .ion-android-alarm-clock:before, .ion-android-alert:before, .ion-android-apps:before, .ion-android-archive:before, .ion-android-arrow-back:before, .ion-android-arrow-down:before, .ion-android-arrow-dropdown:before, .ion-android-arrow-dropdown-circle:before, .ion-android-arrow-dropleft:before, .ion-android-arrow-dropleft-circle:before, .ion-android-arrow-dropright:before, .ion-android-arrow-dropright-circle:before, .ion-android-arrow-dropup:before, .ion-android-arrow-dropup-circle:before, .ion-android-arrow-forward:before, .ion-android-arrow-up:before, .ion-android-attach:before, .ion-android-bar:before, .ion-android-bicycle:before, .ion-android-boat:before, .ion-android-bookmark:before, .ion-android-bulb:before, .ion-android-bus:before, .ion-android-calendar:before, .ion-android-call:before, .ion-android-camera:before, .ion-android-cancel:before, .ion-android-car:before, .ion-android-cart:before, .ion-android-chat:before, .ion-android-checkbox:before, .ion-android-checkbox-blank:before, .ion-android-checkbox-outline:before, .ion-android-checkbox-outline-blank:before, .ion-android-checkmark-circle:before, .ion-android-clipboard:before, .ion-android-close:before, .ion-android-cloud:before, .ion-android-cloud-circle:before, .ion-android-cloud-done:before, .ion-android-cloud-outline:before, .ion-android-color-palette:before, .ion-android-compass:before, .ion-android-contact:before, .ion-android-contacts:before, .ion-android-contract:before, .ion-android-create:before, .ion-android-delete:before, .ion-android-desktop:before, .ion-android-document:before, .ion-android-done:before, .ion-android-done-all:before, .ion-android-download:before, .ion-android-drafts:before, .ion-android-exit:before, .ion-android-expand:before, .ion-android-favorite:before, .ion-android-favorite-outline:before, .ion-android-film:before, .ion-android-folder:before, .ion-android-folder-open:before, .ion-android-funnel:before, .ion-android-globe:before, .ion-android-hand:before, .ion-android-hangout:before, .ion-android-happy:before, .ion-android-home:before, .ion-android-image:before, .ion-android-laptop:before, .ion-android-list:before, .ion-android-locate:before, .ion-android-lock:before, .ion-android-mail:before, .ion-android-map:before, .ion-android-menu:before, .ion-android-microphone:before, .ion-android-microphone-off:before, .ion-android-more-horizontal:before, .ion-android-more-vertical:before, .ion-android-navigate:before, .ion-android-notifications:before, .ion-android-notifications-none:before, .ion-android-notifications-off:before, .ion-android-open:before, .ion-android-options:before, .ion-android-people:before, .ion-android-person:before, .ion-android-person-add:before, .ion-android-phone-landscape:before, .ion-android-phone-portrait:before, .ion-android-pin:before, .ion-android-plane:before, .ion-android-playstore:before, .ion-android-print:before, .ion-android-radio-button-off:before, .ion-android-radio-button-on:before, .ion-android-refresh:before, .ion-android-remove:before, .ion-android-remove-circle:before, .ion-android-restaurant:before, .ion-android-sad:before, .ion-android-search:before, .ion-android-send:before, .ion-android-settings:before, .ion-android-share:before, .ion-android-share-alt:before, .ion-android-star:before, .ion-android-star-half:before, .ion-android-star-outline:before, .ion-android-stopwatch:before, .ion-android-subway:before, .ion-android-sunny:before, .ion-android-sync:before, .ion-android-textsms:before, .ion-android-time:before, .ion-android-train:before, .ion-android-unlock:before, .ion-android-upload:before, .ion-android-volume-down:before, .ion-android-volume-mute:before, .ion-android-volume-off:before, .ion-android-volume-up:before, .ion-android-walk:before, .ion-android-warning:before, .ion-android-watch:before, .ion-android-wifi:before, .ion-aperture:before, .ion-archive:before, .ion-arrow-down-a:before, .ion-arrow-down-b:before, .ion-arrow-down-c:before, .ion-arrow-expand:before, .ion-arrow-graph-down-left:before, .ion-arrow-graph-down-right:before, .ion-arrow-graph-up-left:before, .ion-arrow-graph-up-right:before, .ion-arrow-left-a:before, .ion-arrow-left-b:before, .ion-arrow-left-c:before, .ion-arrow-move:before, .ion-arrow-resize:before, .ion-arrow-return-left:before, .ion-arrow-return-right:before, .ion-arrow-right-a:before, .ion-arrow-right-b:before, .ion-arrow-right-c:before, .ion-arrow-shrink:before, .ion-arrow-swap:before, .ion-arrow-up-a:before, .ion-arrow-up-b:before, .ion-arrow-up-c:before, .ion-asterisk:before, .ion-at:before, .ion-backspace:before, .ion-backspace-outline:before, .ion-bag:before, .ion-battery-charging:before, .ion-battery-empty:before, .ion-battery-full:before, .ion-battery-half:before, .ion-battery-low:before, .ion-beaker:before, .ion-beer:before, .ion-bluetooth:before, .ion-bonfire:before, .ion-bookmark:before, .ion-bowtie:before, .ion-briefcase:before, .ion-bug:before, .ion-calculator:before, .ion-calendar:before, .ion-camera:before, .ion-card:before, .ion-cash:before, .ion-chatbox:before, .ion-chatbox-working:before, .ion-chatboxes:before, .ion-chatbubble:before, .ion-chatbubble-working:before, .ion-chatbubbles:before, .ion-checkmark:before, .ion-checkmark-circled:before, .ion-checkmark-round:before, .ion-chevron-down:before, .ion-chevron-left:before, .ion-chevron-right:before, .ion-chevron-up:before, .ion-clipboard:before, .ion-clock:before, .ion-close:before, .ion-close-circled:before, .ion-close-round:before, .ion-closed-captioning:before, .ion-cloud:before, .ion-code:before, .ion-code-download:before, .ion-code-working:before, .ion-coffee:before, .ion-compass:before, .ion-compose:before, .ion-connection-bars:before, .ion-contrast:before, .ion-crop:before, .ion-cube:before, .ion-disc:before, .ion-document:before, .ion-document-text:before, .ion-drag:before, .ion-earth:before, .ion-easel:before, .ion-edit:before, .ion-egg:before, .ion-eject:before, .ion-email:before, .ion-email-unread:before, .ion-erlenmeyer-flask:before, .ion-erlenmeyer-flask-bubbles:before, .ion-eye:before, .ion-eye-disabled:before, .ion-female:before, .ion-filing:before, .ion-film-marker:before, .ion-fireball:before, .ion-flag:before, .ion-flame:before, .ion-flash:before, .ion-flash-off:before, .ion-folder:before, .ion-fork:before, .ion-fork-repo:before, .ion-forward:before, .ion-funnel:before, .ion-gear-a:before, .ion-gear-b:before, .ion-grid:before, .ion-hammer:before, .ion-happy:before, .ion-happy-outline:before, .ion-headphone:before, .ion-heart:before, .ion-heart-broken:before, .ion-help:before, .ion-help-buoy:before, .ion-help-circled:before, .ion-home:before, .ion-icecream:before, .ion-image:before, .ion-images:before, .ion-information:before, .ion-information-circled:before, .ion-ionic:before, .ion-ios-alarm:before, .ion-ios-alarm-outline:before, .ion-ios-albums:before, .ion-ios-albums-outline:before, .ion-ios-americanfootball:before, .ion-ios-americanfootball-outline:before, .ion-ios-analytics:before, .ion-ios-analytics-outline:before, .ion-ios-arrow-back:before, .ion-ios-arrow-down:before, .ion-ios-arrow-forward:before, .ion-ios-arrow-left:before, .ion-ios-arrow-right:before, .ion-ios-arrow-thin-down:before, .ion-ios-arrow-thin-left:before, .ion-ios-arrow-thin-right:before, .ion-ios-arrow-thin-up:before, .ion-ios-arrow-up:before, .ion-ios-at:before, .ion-ios-at-outline:before, .ion-ios-barcode:before, .ion-ios-barcode-outline:before, .ion-ios-baseball:before, .ion-ios-baseball-outline:before, .ion-ios-basketball:before, .ion-ios-basketball-outline:before, .ion-ios-bell:before, .ion-ios-bell-outline:before, .ion-ios-body:before, .ion-ios-body-outline:before, .ion-ios-bolt:before, .ion-ios-bolt-outline:before, .ion-ios-book:before, .ion-ios-book-outline:before, .ion-ios-bookmarks:before, .ion-ios-bookmarks-outline:before, .ion-ios-box:before, .ion-ios-box-outline:before, .ion-ios-briefcase:before, .ion-ios-briefcase-outline:before, .ion-ios-browsers:before, .ion-ios-browsers-outline:before, .ion-ios-calculator:before, .ion-ios-calculator-outline:before, .ion-ios-calendar:before, .ion-ios-calendar-outline:before, .ion-ios-camera:before, .ion-ios-camera-outline:before, .ion-ios-cart:before, .ion-ios-cart-outline:before, .ion-ios-chatboxes:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatbubble:before, .ion-ios-chatbubble-outline:before, .ion-ios-checkmark:before, .ion-ios-checkmark-empty:before, .ion-ios-checkmark-outline:before, .ion-ios-circle-filled:before, .ion-ios-circle-outline:before, .ion-ios-clock:before, .ion-ios-clock-outline:before, .ion-ios-close:before, .ion-ios-close-empty:before, .ion-ios-close-outline:before, .ion-ios-cloud:before, .ion-ios-cloud-download:before, .ion-ios-cloud-download-outline:before, .ion-ios-cloud-outline:before, .ion-ios-cloud-upload:before, .ion-ios-cloud-upload-outline:before, .ion-ios-cloudy:before, .ion-ios-cloudy-night:before, .ion-ios-cloudy-night-outline:before, .ion-ios-cloudy-outline:before, .ion-ios-cog:before, .ion-ios-cog-outline:before, .ion-ios-color-filter:before, .ion-ios-color-filter-outline:before, .ion-ios-color-wand:before, .ion-ios-color-wand-outline:before, .ion-ios-compose:before, .ion-ios-compose-outline:before, .ion-ios-contact:before, .ion-ios-contact-outline:before, .ion-ios-copy:before, .ion-ios-copy-outline:before, .ion-ios-crop:before, .ion-ios-crop-strong:before, .ion-ios-download:before, .ion-ios-download-outline:before, .ion-ios-drag:before, .ion-ios-email:before, .ion-ios-email-outline:before, .ion-ios-eye:before, .ion-ios-eye-outline:before, .ion-ios-fastforward:before, .ion-ios-fastforward-outline:before, .ion-ios-filing:before, .ion-ios-filing-outline:before, .ion-ios-film:before, .ion-ios-film-outline:before, .ion-ios-flag:before, .ion-ios-flag-outline:before, .ion-ios-flame:before, .ion-ios-flame-outline:before, .ion-ios-flask:before, .ion-ios-flask-outline:before, .ion-ios-flower:before, .ion-ios-flower-outline:before, .ion-ios-folder:before, .ion-ios-folder-outline:before, .ion-ios-football:before, .ion-ios-football-outline:before, .ion-ios-game-controller-a:before, .ion-ios-game-controller-a-outline:before, .ion-ios-game-controller-b:before, .ion-ios-game-controller-b-outline:before, .ion-ios-gear:before, .ion-ios-gear-outline:before, .ion-ios-glasses:before, .ion-ios-glasses-outline:before, .ion-ios-grid-view:before, .ion-ios-grid-view-outline:before, .ion-ios-heart:before, .ion-ios-heart-outline:before, .ion-ios-help:before, .ion-ios-help-empty:before, .ion-ios-help-outline:before, .ion-ios-home:before, .ion-ios-home-outline:before, .ion-ios-infinite:before, .ion-ios-infinite-outline:before, .ion-ios-information:before, .ion-ios-information-empty:before, .ion-ios-information-outline:before, .ion-ios-ionic-outline:before, .ion-ios-keypad:before, .ion-ios-keypad-outline:before, .ion-ios-lightbulb:before, .ion-ios-lightbulb-outline:before, .ion-ios-list:before, .ion-ios-list-outline:before, .ion-ios-location:before, .ion-ios-location-outline:before, .ion-ios-locked:before, .ion-ios-locked-outline:before, .ion-ios-loop:before, .ion-ios-loop-strong:before, .ion-ios-medical:before, .ion-ios-medical-outline:before, .ion-ios-medkit:before, .ion-ios-medkit-outline:before, .ion-ios-mic:before, .ion-ios-mic-off:before, .ion-ios-mic-outline:before, .ion-ios-minus:before, .ion-ios-minus-empty:before, .ion-ios-minus-outline:before, .ion-ios-monitor:before, .ion-ios-monitor-outline:before, .ion-ios-moon:before, .ion-ios-moon-outline:before, .ion-ios-more:before, .ion-ios-more-outline:before, .ion-ios-musical-note:before, .ion-ios-musical-notes:before, .ion-ios-navigate:before, .ion-ios-navigate-outline:before, .ion-ios-nutrition:before, .ion-ios-nutrition-outline:before, .ion-ios-paper:before, .ion-ios-paper-outline:before, .ion-ios-paperplane:before, .ion-ios-paperplane-outline:before, .ion-ios-partlysunny:before, .ion-ios-partlysunny-outline:before, .ion-ios-pause:before, .ion-ios-pause-outline:before, .ion-ios-paw:before, .ion-ios-paw-outline:before, .ion-ios-people:before, .ion-ios-people-outline:before, .ion-ios-person:before, .ion-ios-person-outline:before, .ion-ios-personadd:before, .ion-ios-personadd-outline:before, .ion-ios-photos:before, .ion-ios-photos-outline:before, .ion-ios-pie:before, .ion-ios-pie-outline:before, .ion-ios-pint:before, .ion-ios-pint-outline:before, .ion-ios-play:before, .ion-ios-play-outline:before, .ion-ios-plus:before, .ion-ios-plus-empty:before, .ion-ios-plus-outline:before, .ion-ios-pricetag:before, .ion-ios-pricetag-outline:before, .ion-ios-pricetags:before, .ion-ios-pricetags-outline:before, .ion-ios-printer:before, .ion-ios-printer-outline:before, .ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-rainy:before, .ion-ios-rainy-outline:before, .ion-ios-recording:before, .ion-ios-recording-outline:before, .ion-ios-redo:before, .ion-ios-redo-outline:before, .ion-ios-refresh:before, .ion-ios-refresh-empty:before, .ion-ios-refresh-outline:before, .ion-ios-reload:before, .ion-ios-reverse-camera:before, .ion-ios-reverse-camera-outline:before, .ion-ios-rewind:before, .ion-ios-rewind-outline:before, .ion-ios-rose:before, .ion-ios-rose-outline:before, .ion-ios-search:before, .ion-ios-search-strong:before, .ion-ios-settings:before, .ion-ios-settings-strong:before, .ion-ios-shuffle:before, .ion-ios-shuffle-strong:before, .ion-ios-skipbackward:before, .ion-ios-skipbackward-outline:before, .ion-ios-skipforward:before, .ion-ios-skipforward-outline:before, .ion-ios-snowy:before, .ion-ios-speedometer:before, .ion-ios-speedometer-outline:before, .ion-ios-star:before, .ion-ios-star-half:before, .ion-ios-star-outline:before, .ion-ios-stopwatch:before, .ion-ios-stopwatch-outline:before, .ion-ios-sunny:before, .ion-ios-sunny-outline:before, .ion-ios-telephone:before, .ion-ios-telephone-outline:before, .ion-ios-tennisball:before, .ion-ios-tennisball-outline:before, .ion-ios-thunderstorm:before, .ion-ios-thunderstorm-outline:before, .ion-ios-time:before, .ion-ios-time-outline:before, .ion-ios-timer:before, .ion-ios-timer-outline:before, .ion-ios-toggle:before, .ion-ios-toggle-outline:before, .ion-ios-trash:before, .ion-ios-trash-outline:before, .ion-ios-undo:before, .ion-ios-undo-outline:before, .ion-ios-unlocked:before, .ion-ios-unlocked-outline:before, .ion-ios-upload:before, .ion-ios-upload-outline:before, .ion-ios-videocam:before, .ion-ios-videocam-outline:before, .ion-ios-volume-high:before, .ion-ios-volume-low:before, .ion-ios-wineglass:before, .ion-ios-wineglass-outline:before, .ion-ios-world:before, .ion-ios-world-outline:before, .ion-ipad:before, .ion-iphone:before, .ion-ipod:before, .ion-jet:before, .ion-key:before, .ion-knife:before, .ion-laptop:before, .ion-leaf:before, .ion-levels:before, .ion-lightbulb:before, .ion-link:before, .ion-load-a:before, .ion-load-b:before, .ion-load-c:before, .ion-load-d:before, .ion-location:before, .ion-lock-combination:before, .ion-locked:before, .ion-log-in:before, .ion-log-out:before, .ion-loop:before, .ion-magnet:before, .ion-male:before, .ion-man:before, .ion-map:before, .ion-medkit:before, .ion-merge:before, .ion-mic-a:before, .ion-mic-b:before, .ion-mic-c:before, .ion-minus:before, .ion-minus-circled:before, .ion-minus-round:before, .ion-model-s:before, .ion-monitor:before, .ion-more:before, .ion-mouse:before, .ion-music-note:before, .ion-navicon:before, .ion-navicon-round:before, .ion-navigate:before, .ion-network:before, .ion-no-smoking:before, .ion-nuclear:before, .ion-outlet:before, .ion-paintbrush:before, .ion-paintbucket:before, .ion-paper-airplane:before, .ion-paperclip:before, .ion-pause:before, .ion-person:before, .ion-person-add:before, .ion-person-stalker:before, .ion-pie-graph:before, .ion-pin:before, .ion-pinpoint:before, .ion-pizza:before, .ion-plane:before, .ion-planet:before, .ion-play:before, .ion-playstation:before, .ion-plus:before, .ion-plus-circled:before, .ion-plus-round:before, .ion-podium:before, .ion-pound:before, .ion-power:before, .ion-pricetag:before, .ion-pricetags:before, .ion-printer:before, .ion-pull-request:before, .ion-qr-scanner:before, .ion-quote:before, .ion-radio-waves:before, .ion-record:before, .ion-refresh:before, .ion-reply:before, .ion-reply-all:before, .ion-ribbon-a:before, .ion-ribbon-b:before, .ion-sad:before, .ion-sad-outline:before, .ion-scissors:before, .ion-search:before, .ion-settings:before, .ion-share:before, .ion-shuffle:before, .ion-skip-backward:before, .ion-skip-forward:before, .ion-social-android:before, .ion-social-android-outline:before, .ion-social-angular:before, .ion-social-angular-outline:before, .ion-social-apple:before, .ion-social-apple-outline:before, .ion-social-bitcoin:before, .ion-social-bitcoin-outline:before, .ion-social-buffer:before, .ion-social-buffer-outline:before, .ion-social-chrome:before, .ion-social-chrome-outline:before, .ion-social-codepen:before, .ion-social-codepen-outline:before, .ion-social-css3:before, .ion-social-css3-outline:before, .ion-social-designernews:before, .ion-social-designernews-outline:before, .ion-social-dribbble:before, .ion-social-dribbble-outline:before, .ion-social-dropbox:before, .ion-social-dropbox-outline:before, .ion-social-euro:before, .ion-social-euro-outline:before, .ion-social-facebook:before, .ion-social-facebook-outline:before, .ion-social-foursquare:before, .ion-social-foursquare-outline:before, .ion-social-freebsd-devil:before, .ion-social-github:before, .ion-social-github-outline:before, .ion-social-google:before, .ion-social-google-outline:before, .ion-social-googleplus:before, .ion-social-googleplus-outline:before, .ion-social-hackernews:before, .ion-social-hackernews-outline:before, .ion-social-html5:before, .ion-social-html5-outline:before, .ion-social-instagram:before, .ion-social-instagram-outline:before, .ion-social-javascript:before, .ion-social-javascript-outline:before, .ion-social-linkedin:before, .ion-social-linkedin-outline:before, .ion-social-markdown:before, .ion-social-nodejs:before, .ion-social-octocat:before, .ion-social-pinterest:before, .ion-social-pinterest-outline:before, .ion-social-python:before, .ion-social-reddit:before, .ion-social-reddit-outline:before, .ion-social-rss:before, .ion-social-rss-outline:before, .ion-social-sass:before, .ion-social-skype:before, .ion-social-skype-outline:before, .ion-social-snapchat:before, .ion-social-snapchat-outline:before, .ion-social-tumblr:before, .ion-social-tumblr-outline:before, .ion-social-tux:before, .ion-social-twitch:before, .ion-social-twitch-outline:before, .ion-social-twitter:before, .ion-social-twitter-outline:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-social-vimeo:before, .ion-social-vimeo-outline:before, .ion-social-whatsapp:before, .ion-social-whatsapp-outline:before, .ion-social-windows:before, .ion-social-windows-outline:before, .ion-social-wordpress:before, .ion-social-wordpress-outline:before, .ion-social-yahoo:before, .ion-social-yahoo-outline:before, .ion-social-yen:before, .ion-social-yen-outline:before, .ion-social-youtube:before, .ion-social-youtube-outline:before, .ion-soup-can:before, .ion-soup-can-outline:before, .ion-speakerphone:before, .ion-speedometer:before, .ion-spoon:before, .ion-star:before, .ion-stats-bars:before, .ion-steam:before, .ion-stop:before, .ion-thermometer:before, .ion-thumbsdown:before, .ion-thumbsup:before, .ion-toggle:before, .ion-toggle-filled:before, .ion-transgender:before, .ion-trash-a:before, .ion-trash-b:before, .ion-trophy:before, .ion-tshirt:before, .ion-tshirt-outline:before, .ion-umbrella:before, .ion-university:before, .ion-unlocked:before, .ion-upload:before, .ion-usb:before, .ion-videocamera:before, .ion-volume-high:before, .ion-volume-low:before, .ion-volume-medium:before, .ion-volume-mute:before, .ion-wand:before, .ion-waterdrop:before, .ion-wifi:before, .ion-wineglass:before, .ion-woman:before, .ion-wrench:before, .ion-xbox:before {
+    display: inline-block !important;
+    font-family: "Ionicons" !important;
+    speak: none !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    text-rendering: auto !important;
+    line-height: 1 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+i {
+    font-style: italic;
+}
+.fa-edit:before {
+    content: "\f044";
+}
+.small-box .icon {
+    color: rgba(0,0,0,.15);
+    z-index: 0;
+}
+.bg-info, .bg-info>a {
+    color: #fff!important;
+}
+.ion-person-add:before {
+    content: "\f211";
+}
+body {
+    margin: 0;
+    font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
 }
 .badge {
     display: inline-block;
@@ -1231,10 +1283,40 @@ li {
     background-color: #fff;
     border: 1px solid #dee2e6;
 }
+.small-box:hover {
+    text-decoration: none;
+}
 a {
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
+}
+.ion-stats-bars:before {
+    content: "\f2b5";
+}
+.small-box .icon>i.fa, .small-box .icon>i.fab, .small-box .icon>i.fad, .small-box .icon>i.fal, .small-box .icon>i.far, .small-box .icon>i.fas, .small-box .icon>i.ion {
+    font-size: 70px;
+    top: 20px;
+}
+.small-box .icon>i {
+    font-size: 90px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+    transition: transform .3s linear,-webkit-transform .3s linear;
+}
+.card.bg-gradient-success .bootstrap-datetimepicker-widget table td.day:hover, .card.bg-gradient-success .bootstrap-datetimepicker-widget table td.hour:hover, .card.bg-gradient-success .bootstrap-datetimepicker-widget table td.minute:hover, .card.bg-gradient-success .bootstrap-datetimepicker-widget table td.second:hover, .card.bg-gradient-success .bootstrap-datetimepicker-widget table thead tr:first-child th:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.day:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.hour:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.minute:hover, .card.bg-success .bootstrap-datetimepicker-widget table td.second:hover, .card.bg-success .bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
+    background-color: #208637;
+    color: #fff;
+}
+.card.bg-gradient-success .bootstrap-datetimepicker-widget .table td, .card.bg-gradient-success .bootstrap-datetimepicker-widget .table th, .card.bg-success .bootstrap-datetimepicker-widget .table td, .card.bg-success .bootstrap-datetimepicker-widget .table th {
+    border: none;
+}
+.bootstrap-datetimepicker-widget table td.day:hover, .bootstrap-datetimepicker-widget table td.hour:hover, .bootstrap-datetimepicker-widget table td.minute:hover, .bootstrap-datetimepicker-widget table td.second:hover {
+    background: #e9ecef;
+    cursor: pointer;
 }
 .card-body {
     -ms-flex: 1 1 auto;
@@ -1740,10 +1822,10 @@ svg {
     padding: 1.25rem;
 }
 .jqvmap-zoomin, .jqvmap-zoomout {
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
+    background-color: #f8f9fa !important;
+    border: 1px solid #ddd !important;
     border-radius: 0.25rem;
-    color: #444;
+    color: #444 !important;
     height: 15px;
     width: 15px;
     padding: 1px 2px;
@@ -1751,21 +1833,7 @@ svg {
 .jqvmap-zoomin {
     top: 10px;
 }
-.jqvmap-zoomin, .jqvmap-zoomout {
-    position: absolute;
-    left: 10px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    background: #000;
-    padding: 3px;
-    color: #fff;
-    width: 10px;
-    height: 10px;
-    cursor: pointer;
-    line-height: 10px;
-    text-align: center;
-}
+
 .jqvmap-zoomout {
     background-color: #f8f9fa;
     border: 1px solid #ddd;
@@ -1775,24 +1843,8 @@ svg {
     width: 15px;
     padding: 1px 2px;
 }
-.jqvmap-zoomout {
-    top: 30px;
-}
-.jqvmap-zoomin, .jqvmap-zoomout {
-    position: absolute;
-    left: 10px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    background: #000;
-    padding: 3px;
-    color: #fff;
-    width: 10px;
-    height: 10px;
-    cursor: pointer;
-    line-height: 10px;
-    text-align: center;
-}
+
+
 .bg-transparent {
     background-color: transparent!important;
 }
@@ -2284,3 +2336,552 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 b, strong {
     font-weight: bolder;
 }
+.todo-list>li {
+    border-radius: 2px;
+    background-color: #f8f9fa;
+    border-left: 2px solid #e9ecef;
+    color: #495057;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+.todo-list .handle {
+    cursor: move;
+    display: inline-block;
+    margin: 0 5px;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fad, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.fa-ellipsis-v:before {
+    content: "\f142";
+}
+.ml-2, .mx-2 {
+    margin-left: 0.5rem!important;
+}
+.d-inline {
+    display: inline!important;
+}
+[class*=icheck-] {
+    min-height: 22px;
+    margin-top: 6px!important;
+    margin-bottom: 6px!important;
+    padding-left: 0;
+}
+[class*=icheck-]>input:first-child {
+    position: absolute!important;
+    opacity: 0;
+    margin: 0;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 700;
+}
+[class*=icheck-]>input:first-child+input[type=hidden]+label::before, [class*=icheck-]>input:first-child+label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #D3CFC8;
+    border-radius: 0;
+    margin-left: -29px;
+}
+.todo-list>li .text {
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.icheck-primary>input:first-child:checked+input[type=hidden]+label::before, .icheck-primary>input:first-child:checked+label::before {
+    background-color: #007bff !important;
+    border-color: #007bff;
+}
+.icheck-primary>input:first-child:checked+input[type=hidden]+label::before, .icheck-primary>input:first-child:checked+label::before {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+[class*=icheck-]>input:first-child+input[type=hidden]+label::before, [class*=icheck-]>input:first-child+label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #D3CFC8;
+    border-radius: 0;
+    margin-left: -29px;
+}
+[class*=icheck-]>input:first-child:checked+input[type=hidden]+label::after, [class*=icheck-]>input:first-child:checked+label::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    transform: translate(7.75px,4.5px) rotate(45deg);
+    -ms-transform: translate(7.75px,4.5px) rotate(45deg);
+}
+
+
+// .jqvmap-zoomin[_ngcontent-jwj-c62], .jqvmap-zoomout[_ngcontent-jwj-c62] {
+//     position: absolute;
+//     left: 10px;
+//     border-radius: 3px;
+//     background: #000;
+//     padding: 3px;
+//     color: #fff;
+//     width: 18px;
+//     height: 18px;
+//     cursor: pointer;
+//     line-height: 10px;
+//     text-align: center;
+// }
+// .jqvmap-zoomin[_ngcontent-jwj-c62] {
+//     top: 10px;
+// }
+// .jqvmap-zoomin[_ngcontent-jwj-c62], .jqvmap-zoomout[_ngcontent-jwj-c62] {
+//     background-color: #f8f9fa !important;
+//     border: 1px solid #ddd !important;
+//     border-radius: 0.25rem;
+//     color: #444 !important;
+//     height: 15px;
+//     width: 15px;
+//     padding: 1px 2px;
+// }
+
+// .jqvmap-zoomin[_ngcontent-hsi-c62], .jqvmap-zoomout[_ngcontent-hsi-c62] {
+//     position: absolute;
+//     left: 10px;
+//     border-radius: 3px;
+//     background: #000;
+//     padding: 8px;
+//     color: #fff;
+//     width: 24px;
+//     height: 10px;
+//     cursor: pointer;
+//     line-height: 10px;
+//     text-align: center;
+// }
+// .jqvmap-zoomin[_ngcontent-hsi-c62], .jqvmap-zoomout[_ngcontent-hsi-c62] {
+//     position: absolute;
+//     left: 32px !important;
+//     border-radius: 3px;
+//     background: #000;
+//     padding: 3px;
+//     color: #fff;
+//     width: 10px;
+//     height: 10px;
+//     cursor: pointer !important;
+//     line-height: 2px !important;
+//     text-align: center !important;
+// }
+
+// .jqvmap-zoomout {
+//     top: 30px;
+// }
+
+
+
+
+
+
+.jqvmap-zoomin {
+    top: 10px;
+}
+.jqvmap-zoomin, .jqvmap-zoomout {
+    position: absolute;
+    left: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #000;
+    padding: 3px;
+    color: #fff;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    line-height: 10px;
+    text-align: center;
+}
+
+.jqvmap-zoomin, .jqvmap-zoomout {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    color: #444;
+    height: 15px;
+    width: 15px;
+    padding: 1px 2px;
+}
+.jqvmap-zoomout {
+    top: 30px;
+}
+
+
+
+
+
+.bg-gradient-success {
+    background: #28a745 linear-gradient(180deg,#48b461,#28a745) repeat-x!important;
+    color: #fff;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    box-shadow: none;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 18%);
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+}
+.fa-minus:before {
+    content: "\f068";
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+.pt-0, .py-0 {
+    padding-top: 0!important;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.bootstrap-datetimepicker-widget {
+    list-style: none;
+}
+.bootstrap-datetimepicker-widget .list-unstyled {
+    margin: 0;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.table:not(.table-dark) {
+    color: inherit;
+}
+.bootstrap-datetimepicker-widget table {
+    width: 100%;
+    margin: 0;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: transparent;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.card.bg-gradient-success .bootstrap-datetimepicker-widget .table td, .card.bg-gradient-success .bootstrap-datetimepicker-widget .table th, .card.bg-success .bootstrap-datetimepicker-widget .table td, .card.bg-success .bootstrap-datetimepicker-widget .table th {
+    border: none;
+}
+.bootstrap-datetimepicker-widget table thead tr:first-child th {
+    cursor: pointer;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.bootstrap-datetimepicker-widget table th {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+.bootstrap-datetimepicker-widget table td, .bootstrap-datetimepicker-widget table th {
+    text-align: center;
+    border-radius: 0.25rem;
+}
+.table-sm td, .table-sm th {
+    padding: 0.3rem;
+}
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.bootstrap-datetimepicker-widget table th.prev::after {
+    content: "Previous Month";
+}
+.bootstrap-datetimepicker-widget .btn[data-action=clear]::after, .bootstrap-datetimepicker-widget .btn[data-action=decrementHours]::after, .bootstrap-datetimepicker-widget .btn[data-action=decrementMinutes]::after, .bootstrap-datetimepicker-widget .btn[data-action=incrementHours]::after, .bootstrap-datetimepicker-widget .btn[data-action=incrementMinutes]::after, .bootstrap-datetimepicker-widget .btn[data-action=showHours]::after, .bootstrap-datetimepicker-widget .btn[data-action=showMinutes]::after, .bootstrap-datetimepicker-widget .btn[data-action=today]::after, .bootstrap-datetimepicker-widget .btn[data-action=togglePeriod]::after, .bootstrap-datetimepicker-widget .picker-switch::after, .bootstrap-datetimepicker-widget table th.next::after, .bootstrap-datetimepicker-widget table th.prev::after, .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.card.bg-gradient-success .bootstrap-datetimepicker-widget .table td, .card.bg-gradient-success .bootstrap-datetimepicker-widget .table th, .card.bg-success .bootstrap-datetimepicker-widget .table td, .card.bg-success .bootstrap-datetimepicker-widget .table th {
+    border: none;
+}
+.bootstrap-datetimepicker-widget table thead tr:first-child th {
+    cursor: pointer;
+}
+.bootstrap-datetimepicker-widget table th.picker-switch {
+    width: 145px;
+}
+.bootstrap-datetimepicker-widget .picker-switch {
+    text-align: center;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.bootstrap-datetimepicker-widget table th {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+.bootstrap-datetimepicker-widget table td, .bootstrap-datetimepicker-widget table th {
+    text-align: center;
+    border-radius: 0.25rem;
+}
+.bootstrap-datetimepicker-widget .picker-switch::after {
+    content: "Toggle Date and Time Screens";
+}
+.bootstrap-datetimepicker-widget .btn[data-action=clear]::after, .bootstrap-datetimepicker-widget .btn[data-action=decrementHours]::after, .bootstrap-datetimepicker-widget .btn[data-action=decrementMinutes]::after, .bootstrap-datetimepicker-widget .btn[data-action=incrementHours]::after, .bootstrap-datetimepicker-widget .btn[data-action=incrementMinutes]::after, .bootstrap-datetimepicker-widget .btn[data-action=showHours]::after, .bootstrap-datetimepicker-widget .btn[data-action=showMinutes]::after, .bootstrap-datetimepicker-widget .btn[data-action=today]::after, .bootstrap-datetimepicker-widget .btn[data-action=togglePeriod]::after, .bootstrap-datetimepicker-widget .picker-switch::after, .bootstrap-datetimepicker-widget table th.next::after, .bootstrap-datetimepicker-widget table th.prev::after, .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.card.bg-gradient-success .bootstrap-datetimepicker-widget .table td, .card.bg-gradient-success .bootstrap-datetimepicker-widget .table th, .card.bg-success .bootstrap-datetimepicker-widget .table td, .card.bg-success .bootstrap-datetimepicker-widget .table th {
+    border: none;
+}
+.bootstrap-datetimepicker-widget table thead tr:first-child th {
+    cursor: pointer;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.bootstrap-datetimepicker-widget table th {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+.bootstrap-datetimepicker-widget table td, .bootstrap-datetimepicker-widget table th {
+    text-align: center;
+    border-radius: 0.25rem;
+}
+.table-sm td, .table-sm th {
+    padding: 0.3rem;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.btn-tool {
+    background-color: transparent;
+    color: #adb5bd;
+    font-size: .875rem;
+    margin: -0.75rem 0;
+    padding: 0.25rem 0.5rem;
+}
+
+
+path[Attributes] {
+    d: path("m 244.66 512.25 c -2.48 3.8 2.23 4.04 4.74 5.38 c 3.06 0.16 3.51 -4.28 2.66 -6.56 c -2.72 -0.77 -5.01 -0.19 -7.41 1.19 Z m -9.31 3.97 c -4.02 5.11 3.64 0.48 0.63 -0.09 l -0.5 0.07 l -0.14 0.02 Z m 39.69 7.97 c -0.62 2.09 1.91 6.73 4.39 6.2 c 2.41 -1.46 3.73 1.73 6.48 0.56 c 1.23 -1.48 -3.77 -3.2 -3.7 -6.08 c -0.95 -3.8 -3.28 -3.2 -5.96 -1.28 c -0.41 0.2 -0.81 0.4 -1.22 0.6 Z m 19.94 10.03 c 3.58 0.95 7.91 2.99 11.25 0.47 c -1.05 -1.63 -5.06 -0.59 -7.1 -0.86 c -1.44 0.01 -3.54 -1.63 -4.15 0.39 Z m 12.13 4.38 c 2.33 2.45 3.64 6.83 7.24 7.4 c 2.36 -0.69 6.84 -0.66 7.32 -3.43 c -2.09 -2.51 -5.77 -3.35 -8.88 -4.29 c -2.53 -1.2 -4.11 -3.25 -5.68 0.33 Z m -7.06 1 c -0.29 3.69 5.55 3.98 3.67 0.55 c -0.27 -1.25 -3.83 -1.74 -3.67 -0.55 Z m 23.66 14.69 c 0.27 2.45 3.18 3.93 0.47 6.15 c -0.65 2.42 -5.54 2.87 -2.52 5.53 c 2.36 1.46 2.01 4.85 2.92 7.14 c -0.72 2.69 -1.43 6.78 1.72 8.06 c 2.8 2.95 4.5 -1.93 6.19 -3.68 c 1.27 -1.69 3.85 -4.1 5.94 -2.59 c 3.04 -0.81 6.3 -2.42 7.78 -5.22 c -2.79 -1.31 -4.88 -3.19 -5.57 -6.29 c -2.4 -5.33 -8.95 -6.26 -13.58 -8.98 c -1.29 -0.52 -2.26 -1.62 -3.34 -0.11 Z");
+    stroke: rgb(129, 129, 129);
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: 0.25;
+    fill: rgb(244, 243, 240);
+    fill-opacity: 1;
+}
+path[Attributes] {
+    d: path("m 107.84 436.56 c -2.27 0.55 -4.87 0.32 -6.84 -0.34 c -2.41 1.22 -5.63 4.03 -8.25 1.88 c -3.1 0.93 -3.51 3.84 -5.22 5.97 c -1.82 2.52 -4.21 3.65 -7.31 3.14 c -2.5 -0.94 -5.49 -1.15 -7.5 0.98 c 2.03 4.34 6.39 8.13 5.82 13.23 c -1.85 2.94 6.31 2.99 2.68 5.02 c 0.15 2.8 3.07 5.68 2.91 7.88 c -2.35 2.21 -5.24 -0.38 -7.71 -1.06 c -3.24 -0.64 -2.73 -3.35 -0.82 -5.22 c -1.57 -1.51 -7.35 -1.81 -6.51 1.12 c -2.01 0.04 -3.81 -1.66 -6.27 -0.77 c -3.72 -0.44 -5.97 0.65 -2.94 4.05 c 3.68 1.45 1.06 4.72 1.17 7.57 c 0.76 2.63 3.66 4.89 6.67 4.17 c 3.2 -0.06 5.87 3.59 9.21 1.65 c 2.16 -1.3 5.33 -0.99 4.79 1.89 c -2.53 2.07 -1.36 6.13 -2.78 8.75 c -1.96 1.88 -4.53 1.59 -6.59 0.16 c -1.52 1.37 -4.7 3.68 -6.28 2.22 c 0.72 -3.71 -4.77 -3.63 -5.51 -0.61 c -1.21 3.97 -6.27 4.46 -8.31 7.63 c -0.7 2.42 -1.55 6.7 1.74 6.3 c 1.26 1.11 -1.2 4.8 -2.77 5.52 c 1.62 2.19 2.65 4.59 2.72 7.34 c 1.71 1.55 6.35 1.98 7.5 -0.16 c 2.45 -0.95 1.79 4.1 2.08 5.97 c 2.47 2.95 -4.02 1.28 -1.61 4.56 c -0.85 2.93 -1.76 5.02 2 2.72 c 2.76 -0.47 5.11 -0.69 5.66 2.09 c 2.59 -3.91 2.26 2.78 3.25 4.66 c 0.59 -0.75 1.3 -5.69 3.94 -3.06 c -0.17 4.52 5.33 -0.45 5.78 -0.04 c 0.54 2.92 -1.63 4.24 -2.86 6.41 c -1.51 2.24 -2.07 5.63 -4.21 7.17 c -3.87 -0.42 -3.37 4.1 -5.5 5.02 c -2.65 -0.72 -5.73 0.71 -8.44 1.41 c -1.35 2.41 -3.61 4.2 -5.78 1.81 c -2.56 0.05 -5.63 0.68 -7.63 2.33 c -2.48 2.43 -6.32 3.11 -9.66 2.29 c -2.78 -1.91 -7.11 3.41 -3.11 2.31 c 2.5 -1.91 4.66 0.64 7.25 0.63 c 2.21 -1.15 4.17 -2.75 6.84 -2.06 c 2.32 -3.35 5.1 -0.32 7.92 -1.16 c 2.31 -0.39 7.01 -3.91 5.26 0.66 c 0.09 -2.91 3.42 -2.73 5.54 -2.04 c 4.21 0.96 0.29 -3.16 2.08 -3.43 c 3.47 -2.05 7.52 -2.41 11.2 -3.72 c 5.48 -3.19 11.62 -5.7 16.21 -10.1 c 4.27 -2.97 -2.78 -3.48 -1.21 -6.32 c 1.68 -2.43 4.58 -3.81 7.47 -4.5 c 1.5 -3.07 3.53 -6.11 5.88 -8.52 c 2.49 -1.32 4.83 -3.39 7.83 -2.32 c 2.67 0.71 3.74 5.32 -0.52 3.66 c -1.27 -1.88 -5.56 -0.09 -5.25 2.41 c -0.21 2.44 -2.56 4.22 -3.06 6.66 c 4.79 0.85 0.24 3.54 -1.38 3.8 c 1.67 1.91 5.66 0.6 7.57 -1.14 c 1.25 -1.85 3.43 -3.8 5.41 -4.22 c 1.81 2.8 5.1 -1.16 5.74 2.72 c 0.71 2.78 6.02 -4.86 3.34 -3.1 c -3.03 3.11 -3.78 2.86 -1.94 -1.24 c 1.43 -4.85 -1.76 6.17 -1.45 0.81 c -0.81 -3.19 -0.93 -6.03 3.05 -6.4 c 2.7 -0.86 5.37 -0.87 5.79 2.52 c 0.42 3.48 3.8 2.84 5.95 4.76 c 2.41 2.2 4.76 1.95 7.8 1.78 c 4.34 -0.47 8.01 4.04 12.28 3.17 c 2.49 -0.42 5.1 -5.2 4.29 -0.23 c -2.26 2.83 -0.02 4.12 2.5 5.41 c 3.13 1.35 5.87 3.14 7.94 5.85 c 1.31 3.02 6.05 0.28 6.18 2.43 c -3.83 1.25 -1.23 3.54 0.21 5.47 c 1.81 1.95 0.33 5.72 3.64 5.82 c 1.14 1.28 3.49 7.44 4.01 5.38 c -0.35 -2.32 -0.7 -7.86 1.61 -3.76 c 0.37 1.42 1.04 8.7 2.07 4.74 c 1.07 -4.88 3.18 0.18 2.22 2.93 c 3.33 1.69 -1.23 3.33 0.69 4.88 c 0.69 -3.24 1.31 -0.36 2.16 1.56 c 1.05 1 1.54 3.94 3.13 3.72 c -1.68 -1.72 -2.94 -6.23 0.4 -3 c 2.42 2.79 4.05 2.12 2.74 -1.66 c -2.65 -2.66 0.28 -4.96 2.58 -2.29 c 3.12 -0.05 2.84 5.21 5.28 4.53 c 3.31 -3.17 1.5 -7.87 0.69 -11.7 c -3.3 -1.55 -7.04 -2.54 -10.22 -4.06 c -1.5 -5.33 -6.29 -8.69 -8.4 -13.77 c -0.44 -3.33 -4.71 -2.62 -5.75 -5.23 c -2.32 -1.72 -2.7 -4.4 -4.56 -6.35 c -1.65 -1.53 -5.22 0.95 -5.51 2.94 c 0.59 3.09 -3.23 3.04 -5.06 4.72 c 0.05 -4.27 -4.3 -6.15 -6.7 -9.1 c -1.33 -1.99 -1.32 -5.36 -4.45 -2.34 c -2.37 0.24 -6.38 -0.31 -5.34 -3.62 c 0.1 -27.7 0.2 -55.4 0.31 -83.09 c -2.75 -1.88 -5.88 -4.17 -9.15 -4.4 c -2.52 1.72 -5.07 1.09 -7.39 -0.62 c -2.72 0.23 -5.12 -0.65 -7.7 -2.89 c -3.08 -2.74 -8.58 0.17 -10.98 -3.65 c 1.13 -3.56 -3.22 -4.83 -5 -2.09 c -2.09 0.26 -0.65 -4.31 -3.64 -4.93 c -2.57 -2.85 -4.01 -1.28 -5.86 1.21 Z M 36.38 480.63 c -0.67 3.11 4.27 1.31 4.72 4.66 c 0.24 3.82 5.37 3.9 2.34 -0.08 c -0.1 -3.22 -3.92 -1.83 -5.06 -4.43 c -0.76 -2.02 -0.9 -1.86 -2 -0.16 Z m -17.16 23.16 c 2.57 4.06 1.45 1.37 0.13 -1.28 c -0.36 0.01 0 1 -0.13 1.28 Z m 21.84 14.81 c 1.27 1.79 4.99 5.58 6.22 2.03 c 2.26 -3.3 -3.27 -2.89 -5.23 -3.68 c -1.83 -0.9 -0.88 0.54 -0.99 1.65 Z m 91.72 18.78 c 0.06 3.21 2.81 -1.98 0 0 Z m -31.47 14.69 c -3.2 2.91 -7.24 4.67 -10.56 7.38 c 0.22 2.75 0.99 7.64 4.67 5.15 c 2.5 -1.44 4.98 -2.9 7.45 -4.37 c -1.84 -3.31 -0.81 -3.15 -4.55 -3.48 c -4.15 0.09 1.06 -3.73 2.64 -1.62 c 3.74 -1.04 3.95 -2.36 1.5 -3.66 c 0.7 -1.08 -1 0.61 -1.16 0.59 Z M 55.75 570.75 c 1.42 2.83 3.53 -1.99 0 0 Z m -35.78 0.34 c 0.53 2.46 -4.04 4.84 1.05 3.59 c 4.2 0.47 3.46 -4.35 0.01 -3.84 c -0.35 0.08 -0.7 0.16 -1.06 0.24 Z m 62.19 0.69 c 1.57 2.91 1.31 -2.03 0 0 Z M 58.63 573.13 c 3.23 0.49 0.99 -3.05 0 0 Z m -49 0.09 c -4.84 2.56 -0.44 1.81 2.29 0.58 c 2.89 0.16 5.05 -0.48 0.84 -1.46 c -1.04 0.29 -2.08 0.58 -3.13 0.88 Z m 7.25 1.38 c 1.28 0.21 -2.23 -0.59 0 0 Z");
+    stroke: rgb(129, 129, 129);
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: 0.25;
+    fill: rgb(244, 243, 240);
+}
+.jqvmap-region {
+    cursor: pointer;
+}
+
+.jqvmap-region {
+    cursor: pointer;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+path[Attributes] {
+    d: path("m 862.56 94 c -1.4 -0.41 -3.87 -0.72 -3.05 3 c 0.22 3.63 -0.73 7.84 2.23 10.59 c 0.33 2.78 0.08 5.36 -2.17 7.29 c -0.19 2.83 -5.98 2.58 -3.35 5.32 c 1.16 7.35 -0.56 15.03 -0.62 22.51 c 1.2 1.95 0.98 4.39 0.76 6.75 c -1.07 3.79 4.84 -0.05 6.89 0.06 c 3.93 -1.29 8.46 -1.74 12.04 -3.54 c 0.77 -3.1 4.37 -2.75 5.94 -4.96 c 2.59 -3.52 -3.01 -2.73 -2 -6.59 c -3.83 0.01 -4.27 -2.46 -4.66 -5.62 c -3.84 -11.98 -7.32 -24.45 -11.49 -36.1 c -0.18 0.43 -0.35 0.85 -0.53 1.28 Z");
+    stroke: rgb(129, 129, 129);
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: 0.25;
+    fill: rgb(244, 243, 240);
+}
+user agent stylesheet
+:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+user agent stylesheet
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+path[Attributes]:hover {
+    d: path("m 359.47 330.97 c 2.34 -0.11 -0.86 -1.81 0 0 Z m 0.72 18.31 c -1.64 20.84 -2.52 41.75 -4.68 62.55 c -0.51 4.33 -0.99 8.66 -1.51 12.98 c -17.84 -0.87 -35.67 -1.93 -53.42 -3.89 c -4.16 -0.41 -8.32 -0.76 -12.48 -1.11 c -0.67 3.74 2.27 3.68 4.04 6.12 c 2.26 1.83 1.13 6.03 4.65 6.5 c 3.52 0.48 2.9 4.6 5.45 6.34 c 3.38 3.15 5.5 7.91 10.27 9.06 c 1.91 1.27 4 3.22 4.53 5.46 c 0.69 3.96 4.53 7.02 3.47 11.33 c -0.88 5.15 2.22 9.63 5.93 12.88 c 2.18 2.95 5.14 4.76 8.63 5.78 c 1.88 1.95 3.01 3.88 5.72 4.88 c 2.59 0.18 5.38 4.34 7.35 1.18 c 2.59 -3.14 5.48 -6.41 6.05 -10.55 c 1.26 -2.82 3.58 -4.32 6.5 -5.06 c 2.72 -1.59 5.32 -2.13 7.47 0.62 c 4.91 0.57 10.2 0.53 14.79 2.22 c 2.83 1.43 2.56 4.53 5.17 6.33 c 1.73 2.05 4.83 3.37 5.81 5.82 c 1.37 2.07 2.66 4.26 2.69 7.03 c 1.62 4.34 4.17 8.51 5.31 12.94 c -0.24 2.77 4.65 2.49 4.95 5.51 c 2.24 4.08 4.37 9.17 9.21 10.49 c 3.28 2 0.03 5.04 0.91 7.5 c 3.28 0.87 -0.01 4.68 0.94 6.67 c 2.53 1.36 4.37 3.2 4.22 6.44 c 0.39 3.34 2.13 6.83 5.69 7.54 c 3.01 1.93 6.69 2.13 9.87 3.4 c 2.28 1.79 5.15 4.09 8.16 2.83 c 3.46 0.46 6.77 1.29 9.37 3.75 c 1.43 2.54 6.51 -0.91 4.31 -2.89 c -2.04 -3.39 -1.3 -7.79 -2.83 -11.46 c -0.63 -3.07 -2.39 -5.95 -0.99 -9.1 c 1.17 -4.9 2.87 -9.76 4.04 -14.71 c -3.37 -1.01 -2.07 -5.47 1.21 -4.71 c 3.99 0.42 3.65 -6.43 7.81 -6.05 c 5.25 -1.56 9.07 -6 14.16 -8.05 c 6.91 -2.81 13.62 -6.46 18.72 -12.05 c 2.58 -2.98 7.09 -3.95 8.69 -7.75 c 5 -2.22 9.8 -4.93 15.22 -6 c -0.97 -2.64 0.52 -4.86 1.32 -7.22 c 0.39 -2.99 0.19 -6.07 1.18 -8.94 c -3.15 -2.27 0.38 -4.91 1.38 -7.41 c -0.2 -2.8 1.42 -6.25 0.09 -8.66 c 0.3 -2.93 -1.49 -5.14 -3.35 -7.29 c -2.46 -2.64 -1.11 -6.91 -3.87 -9.52 c -2.53 -4.57 -1.59 -10.19 -2.25 -15.22 c 0.02 -5 0.19 -10 -0.5 -14.97 c -2.63 -2.31 -5.52 2.33 -7.52 -1.37 c -3.1 -2.07 -7.66 -2.1 -9.73 -5.68 c -2.31 -2.48 -3.82 2.84 -7.18 0.96 c -1.91 -2.73 -3.59 0.03 -5.98 0.18 c -2.27 -1.15 -6.07 -1.48 -6.09 1.76 c -2.76 2.37 -5.95 -0.93 -8.94 -1.28 c -3 1.38 -5.23 -3.83 -6.3 -1.87 c -0.15 2.66 -2.52 5.1 -5.13 3.34 c -3.23 -0.15 -4.91 -2.49 -6.57 -3.89 c -2.95 -1.74 -4.3 2.32 -6.94 0.88 c -1.48 -1.39 -1.87 -3.6 -3.92 -5.65 c -3.06 -2.83 -5.03 3.17 -7.13 0.23 c -2.05 -2.11 -5.57 -0.83 -7.94 -2.69 c -3.56 0.59 -5.54 -0.24 -4.13 -4.11 c -1.89 -1.85 -2.28 1.21 -4.77 -0.14 c -0.59 -0.41 -3.45 1.78 -5 -1.11 c -1.9 -1.9 -5.13 -3.22 -4.18 -6.45 c 0.03 -10.58 0.25 -21.15 1.66 -31.65 c 0.3 -2.99 0.6 -5.98 0.89 -8.98 c -17.65 -0.63 -35.3 -1.27 -52.94 -2.22 c -0.52 6.07 -1.04 12.15 -1.56 18.22 Z M 466.53 518.63 c -5.2 7.17 2.93 -3.27 0 0 Z");
+    stroke: rgb(129, 129, 129);
+    stroke-width: 1;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-opacity: 0.25;
+    fill: rgb(201, 223, 175) !important;
+    fill-opacity: 1;
+}
+.small-box:hover .icon>i, .small-box:hover .icon>i.fa, .small-box:hover .icon>i.fab, .small-box:hover .icon>i.fad, .small-box:hover .icon>i.fal, .small-box:hover .icon>i.far, .small-box:hover .icon>i.fas, .small-box:hover .icon>i.ion {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -11,6 +11,7 @@ import { KanbanBoardComponent } from './pages/kanban-board/kanban-board.componen
 import { FullLayoutComponent } from './layout/full-layout/full-layout.component';
 import { EmptyLayoutComponent } from './layout/empty-layout/empty-layout.component';
 import { DashboardmainComponent } from './components/dashboardmain/dashboardmain.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DashboardmainComponent } from './components/dashboardmain/dashboardmain
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule 
+    FontAwesomeModule,
+    BrowserAnimationsModule 
    
   ],
   providers: [],

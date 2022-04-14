@@ -43,18 +43,18 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     margin-right: -7.5px;
     margin-left: -7.5px;
 }
-@media (min-width: 576px)
-{.col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-    position: relative;
-    width: 100%;
-    padding-right: 7.5px;
-    padding-left: 7.5px;
-}
+// @media (min-width: 576px)
+// {.col-sm-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }}
+// .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+//     position: relative;
+//     width: 100%;
+//     padding-right: 7.5px;
+//     padding-left: 7.5px;
+// }
 .content-header h1 {
     font-size: 1.8rem;
     margin: 0;
@@ -62,12 +62,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .h1, h1 {
     font-size: 2.5rem;
 }
-@media (min-width: 576px)
-{.col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
+// @media (min-width: 576px)
+// {.col-sm-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }}
 .content-header .breadcrumb {
     background-color: transparent;
     line-height: 1.8rem;
@@ -147,23 +147,23 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     margin-right: -7.5px;
     margin-left: -7.5px;
 }
-@media (min-width: 768px)
-{.col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}}
-@media (min-width: 576px)
-{.col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
-.col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
+// @media (min-width: 768px)
+// {.col-md-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }}
+// @media (min-width: 576px)
+// {.col-sm-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }}
+// .col-12 {
+//     -ms-flex: 0 0 100%;
+//     flex: 0 0 100%;
+//     max-width: 100%;
+// }
 .info-box {
     box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
     border-radius: .25rem;
@@ -302,23 +302,23 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     margin-right: -7.5px;
     margin-left: -7.5px;
 }
-@media (min-width: 768px)
-{.col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}}
-@media (min-width: 576px)
-{.col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
-.col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
+// @media (min-width: 768px)
+// {.col-md-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }}
+// @media (min-width: 576px)
+// {.col-sm-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }}
+// .col-12 {
+//     -ms-flex: 0 0 100%;
+//     flex: 0 0 100%;
+//     max-width: 100%;
+// }
 .info-box {
     box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
     border-radius: .25rem;
@@ -408,23 +408,23 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     padding: 0 10px;
     overflow: hidden;
 }
-@media (min-width: 768px)
-{.col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}}
-@media (min-width: 576px)
-{.col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
-.col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
+// @media (min-width: 768px)
+// {.col-md-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }}
+// @media (min-width: 576px)
+// {.col-sm-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }}
+// .col-12 {
+//     -ms-flex: 0 0 100%;
+//     flex: 0 0 100%;
+//     max-width: 100%;
+// }
 .info-box {
     box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
     border-radius: .25rem;
@@ -528,20 +528,20 @@ code, kbd, pre, samp {
     background-color: #007bff;
     transition: width .6s ease;
 }
-@media (min-width: 1200px)
-{.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    font-size: 1rem;
-    display: block;
-}}
-@media (min-width: 992px)
-{.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    font-size: .75rem;
-    display: block;
-}}
-@media (min-width: 768px)
-{.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    display: none;
-}}
+// @media (min-width: 1200px)
+// {.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     font-size: 1rem;
+//     display: block;
+// }}
+// @media (min-width: 992px)
+// {.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     font-size: .75rem;
+//     display: block;
+// }}
+// @media (min-width: 768px)
+// {.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     display: none;
+// }}
 .info-box .progress-description {
     margin: 0;
 }
@@ -609,17 +609,17 @@ code, kbd, pre, samp {
 .fa-comments:before {
     content: "\f086";
 }
-@media (min-width: 992px)
-{.col-lg-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}}
-.col-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
+// @media (min-width: 992px)
+// {.col-lg-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }}
+// .col-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }
 .bg-info, .bg-info>a {
     color: #fff!important;
 }
@@ -649,14 +649,14 @@ div {
 .bg-info, .bg-info>a {
     color: #fff!important;
 }
-@media (min-width: 1200px)
-{.col-lg-3 .small-box h3, .col-md-3 .small-box h3, .col-xl-3 .small-box h3 {
-    font-size: 2.2rem;
-}}
-@media (min-width: 992px)
-{.col-lg-3 .small-box h3, .col-md-3 .small-box h3, .col-xl-3 .small-box h3 {
-    font-size: 1.6rem;
-}}
+// @media (min-width: 1200px)
+// {.col-lg-3 .small-box h3, .col-md-3 .small-box h3, .col-xl-3 .small-box h3 {
+//     font-size: 2.2rem;
+// }}
+// @media (min-width: 992px)
+// {.col-lg-3 .small-box h3, .col-md-3 .small-box h3, .col-xl-3 .small-box h3 {
+//     font-size: 1.6rem;
+// }}
 .small-box h3, .small-box p {
     z-index: 5;
 }
@@ -720,14 +720,14 @@ p {
     padding: 10px;
 }
 
-@media (min-width: 1200px)
-{.col-lg-3 .small-box h3, .col-md-3 .small-box h3, .col-xl-3 .small-box h3 {
-    font-size: 2.2rem;
-}}
-@media (min-width: 992px)
-{.col-lg-3 .small-box h3, .col-md-3 .small-box h3, .col-xl-3 .small-box h3 {
-    font-size: 1.6rem;
-}}
+// @media (min-width: 1200px)
+// {.col-lg-3 .small-box h3, .col-md-3 .small-box h3, .col-xl-3 .small-box h3 {
+//     font-size: 2.2rem;
+// }}
+// @media (min-width: 992px)
+// {.col-lg-3 .small-box h3, .col-md-3 .small-box h3, .col-xl-3 .small-box h3 {
+//     font-size: 1.6rem;
+// }}
 .small-box h3, .small-box p {
     z-index: 5;
 }
@@ -1003,12 +1003,12 @@ button {
     clear: both;
     content: "";
 }
-@media (min-width: 768px)
-{.col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}}
+// @media (min-width: 768px)
+// {.col-md-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }}
 .card-success:not(.card-outline)>.card-header, .card-success:not(.card-outline)>.card-header a {
     color: #fff;
 }
@@ -1417,12 +1417,12 @@ button {
     flex: 0 0 25%;
     max-width: 25%;
 }}
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
-    position: relative;
-    width: 100%;
-    padding-right: 7.5px;
-    padding-left: 7.5px;
-}
+// .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+//     position: relative;
+//     width: 100%;
+//     padding-right: 7.5px;
+//     padding-left: 7.5px;
+// }
 .card {
     box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
     margin-bottom: 1rem;
@@ -1499,12 +1499,12 @@ button {
     clear: both;
     content: "";
 }
-@media (min-width: 768px)
-{.col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}}
+// @media (min-width: 768px)
+// {.col-md-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }}
 .card {
     box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
     margin-bottom: 1rem;
@@ -1760,11 +1760,11 @@ button {
     clear: both;
     content: "";
 }
-.col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}
+// .col-md-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }
 .card-primary.card-outline {
     border-top: 3px solid #007bff;
 }
@@ -2352,12 +2352,12 @@ button, input, optgroup, select, textarea {
     clear: both;
     content: "";
 }
-@media (min-width: 768px)
-{.col-md-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}}
+// @media (min-width: 768px)
+// {.col-md-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }}
 .card-success.card-outline {
     border-top: 3px solid #28a745;
 }
@@ -2511,30 +2511,30 @@ img {
     border-color: #dc3545;
     box-shadow: none;
 }
-@media (min-width: 1200px)
-{.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    font-size: 1rem;
-    display: block;
-}}
-.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    font-size: 1rem;
-    display: block;
-}
-@media (min-width: 992px)
-{.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    font-size: .75rem;
-    display: block;
-}}
-.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    font-size: .75rem;
-    display: block;
-}
-@media (min-width: 768px)
-{.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    display: none;
-}}
-.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
-    display: none;}
+// @media (min-width: 1200px)
+// {.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     font-size: 1rem;
+//     display: block;
+// }}
+// .col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     font-size: 1rem;
+//     display: block;
+// }
+// @media (min-width: 992px)
+// {.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     font-size: .75rem;
+//     display: block;
+// }}
+// .col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     font-size: .75rem;
+//     display: block;
+// }
+// @media (min-width: 768px)
+// {.col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     display: none;
+// }}
+// .col-lg-3 .info-box .progress-description, .col-md-3 .info-box .progress-description, .col-xl-3 .info-box .progress-description {
+//     display: none;}
 .info-box .progress-description {
     margin: 0;
 }
@@ -2544,11 +2544,11 @@ img {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.col-lg-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}
+// .col-lg-3 {
+//     -ms-flex: 0 0 25%;
+//     flex: 0 0 25%;
+//     max-width: 25%;
+// }
 .row {
     display: -ms-flexbox;
     display: flex;
@@ -2557,11 +2557,11 @@ img {
     margin-right: -7.5px;
     margin-left: -7.5px;
 }
-.col-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
+// .col-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }
 
 .card-header {
     background-color: transparent;
@@ -3171,24 +3171,24 @@ img {
     padding: 1.25rem;
     // border-radius: calc(.25rem - 0);
 }
-@media (min-width: 1200px)
-{.col-xl-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-}}
-@media (min-width: 992px)
-{.col-lg-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
-@media (min-width: 768px)
-{.col-md-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}}
+// @media (min-width: 1200px)
+// {.col-xl-4 {
+//     -ms-flex: 0 0 33.333333%;
+//     flex: 0 0 33.333333%;
+//     max-width: 33.333333%;
+// }}
+// @media (min-width: 992px)
+// {.col-lg-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }}
+// @media (min-width: 768px)
+// {.col-md-12 {
+//     -ms-flex: 0 0 100%;
+//     flex: 0 0 100%;
+//     max-width: 100%;
+// }}
 .card {
     box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
     margin-bottom: 1rem;
@@ -3220,21 +3220,213 @@ img {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
 }}
-@media (min-width: 992px)
-{.col-lg-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}}
-@media (min-width: 768px)
-{.col-md-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
+.img-circle {
+    border-radius: 50%;
+}
+.img-sm {
+    height: 1.875rem;
+    width: 1.875rem;
+}
+.img-lg, .img-md, .img-sm {
+    float: left;
+}
+.img-fluid {
     max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.back-to-top {
+    bottom: 1.25rem;
+    position: fixed;
+    right: 1.25rem;
+    z-index: 1032;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: none;
+}
+.ion-stats-bars:before {
+    content: "\f2b5";
+}
+.ion, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-circle:before, .ion-android-alarm-clock:before, .ion-android-alert:before, .ion-android-apps:before, .ion-android-archive:before, .ion-android-arrow-back:before, .ion-android-arrow-down:before, .ion-android-arrow-dropdown:before, .ion-android-arrow-dropdown-circle:before, .ion-android-arrow-dropleft:before, .ion-android-arrow-dropleft-circle:before, .ion-android-arrow-dropright:before, .ion-android-arrow-dropright-circle:before, .ion-android-arrow-dropup:before, .ion-android-arrow-dropup-circle:before, .ion-android-arrow-forward:before, .ion-android-arrow-up:before, .ion-android-attach:before, .ion-android-bar:before, .ion-android-bicycle:before, .ion-android-boat:before, .ion-android-bookmark:before, .ion-android-bulb:before, .ion-android-bus:before, .ion-android-calendar:before, .ion-android-call:before, .ion-android-camera:before, .ion-android-cancel:before, .ion-android-car:before, .ion-android-cart:before, .ion-android-chat:before, .ion-android-checkbox:before, .ion-android-checkbox-blank:before, .ion-android-checkbox-outline:before, .ion-android-checkbox-outline-blank:before, .ion-android-checkmark-circle:before, .ion-android-clipboard:before, .ion-android-close:before, .ion-android-cloud:before, .ion-android-cloud-circle:before, .ion-android-cloud-done:before, .ion-android-cloud-outline:before, .ion-android-color-palette:before, .ion-android-compass:before, .ion-android-contact:before, .ion-android-contacts:before, .ion-android-contract:before, .ion-android-create:before, .ion-android-delete:before, .ion-android-desktop:before, .ion-android-document:before, .ion-android-done:before, .ion-android-done-all:before, .ion-android-download:before, .ion-android-drafts:before, .ion-android-exit:before, .ion-android-expand:before, .ion-android-favorite:before, .ion-android-favorite-outline:before, .ion-android-film:before, .ion-android-folder:before, .ion-android-folder-open:before, .ion-android-funnel:before, .ion-android-globe:before, .ion-android-hand:before, .ion-android-hangout:before, .ion-android-happy:before, .ion-android-home:before, .ion-android-image:before, .ion-android-laptop:before, .ion-android-list:before, .ion-android-locate:before, .ion-android-lock:before, .ion-android-mail:before, .ion-android-map:before, .ion-android-menu:before, .ion-android-microphone:before, .ion-android-microphone-off:before, .ion-android-more-horizontal:before, .ion-android-more-vertical:before, .ion-android-navigate:before, .ion-android-notifications:before, .ion-android-notifications-none:before, .ion-android-notifications-off:before, .ion-android-open:before, .ion-android-options:before, .ion-android-people:before, .ion-android-person:before, .ion-android-person-add:before, .ion-android-phone-landscape:before, .ion-android-phone-portrait:before, .ion-android-pin:before, .ion-android-plane:before, .ion-android-playstore:before, .ion-android-print:before, .ion-android-radio-button-off:before, .ion-android-radio-button-on:before, .ion-android-refresh:before, .ion-android-remove:before, .ion-android-remove-circle:before, .ion-android-restaurant:before, .ion-android-sad:before, .ion-android-search:before, .ion-android-send:before, .ion-android-settings:before, .ion-android-share:before, .ion-android-share-alt:before, .ion-android-star:before, .ion-android-star-half:before, .ion-android-star-outline:before, .ion-android-stopwatch:before, .ion-android-subway:before, .ion-android-sunny:before, .ion-android-sync:before, .ion-android-textsms:before, .ion-android-time:before, .ion-android-train:before, .ion-android-unlock:before, .ion-android-upload:before, .ion-android-volume-down:before, .ion-android-volume-mute:before, .ion-android-volume-off:before, .ion-android-volume-up:before, .ion-android-walk:before, .ion-android-warning:before, .ion-android-watch:before, .ion-android-wifi:before, .ion-aperture:before, .ion-archive:before, .ion-arrow-down-a:before, .ion-arrow-down-b:before, .ion-arrow-down-c:before, .ion-arrow-expand:before, .ion-arrow-graph-down-left:before, .ion-arrow-graph-down-right:before, .ion-arrow-graph-up-left:before, .ion-arrow-graph-up-right:before, .ion-arrow-left-a:before, .ion-arrow-left-b:before, .ion-arrow-left-c:before, .ion-arrow-move:before, .ion-arrow-resize:before, .ion-arrow-return-left:before, .ion-arrow-return-right:before, .ion-arrow-right-a:before, .ion-arrow-right-b:before, .ion-arrow-right-c:before, .ion-arrow-shrink:before, .ion-arrow-swap:before, .ion-arrow-up-a:before, .ion-arrow-up-b:before, .ion-arrow-up-c:before, .ion-asterisk:before, .ion-at:before, .ion-backspace:before, .ion-backspace-outline:before, .ion-bag:before, .ion-battery-charging:before, .ion-battery-empty:before, .ion-battery-full:before, .ion-battery-half:before, .ion-battery-low:before, .ion-beaker:before, .ion-beer:before, .ion-bluetooth:before, .ion-bonfire:before, .ion-bookmark:before, .ion-bowtie:before, .ion-briefcase:before, .ion-bug:before, .ion-calculator:before, .ion-calendar:before, .ion-camera:before, .ion-card:before, .ion-cash:before, .ion-chatbox:before, .ion-chatbox-working:before, .ion-chatboxes:before, .ion-chatbubble:before, .ion-chatbubble-working:before, .ion-chatbubbles:before, .ion-checkmark:before, .ion-checkmark-circled:before, .ion-checkmark-round:before, .ion-chevron-down:before, .ion-chevron-left:before, .ion-chevron-right:before, .ion-chevron-up:before, .ion-clipboard:before, .ion-clock:before, .ion-close:before, .ion-close-circled:before, .ion-close-round:before, .ion-closed-captioning:before, .ion-cloud:before, .ion-code:before, .ion-code-download:before, .ion-code-working:before, .ion-coffee:before, .ion-compass:before, .ion-compose:before, .ion-connection-bars:before, .ion-contrast:before, .ion-crop:before, .ion-cube:before, .ion-disc:before, .ion-document:before, .ion-document-text:before, .ion-drag:before, .ion-earth:before, .ion-easel:before, .ion-edit:before, .ion-egg:before, .ion-eject:before, .ion-email:before, .ion-email-unread:before, .ion-erlenmeyer-flask:before, .ion-erlenmeyer-flask-bubbles:before, .ion-eye:before, .ion-eye-disabled:before, .ion-female:before, .ion-filing:before, .ion-film-marker:before, .ion-fireball:before, .ion-flag:before, .ion-flame:before, .ion-flash:before, .ion-flash-off:before, .ion-folder:before, .ion-fork:before, .ion-fork-repo:before, .ion-forward:before, .ion-funnel:before, .ion-gear-a:before, .ion-gear-b:before, .ion-grid:before, .ion-hammer:before, .ion-happy:before, .ion-happy-outline:before, .ion-headphone:before, .ion-heart:before, .ion-heart-broken:before, .ion-help:before, .ion-help-buoy:before, .ion-help-circled:before, .ion-home:before, .ion-icecream:before, .ion-image:before, .ion-images:before, .ion-information:before, .ion-information-circled:before, .ion-ionic:before, .ion-ios-alarm:before, .ion-ios-alarm-outline:before, .ion-ios-albums:before, .ion-ios-albums-outline:before, .ion-ios-americanfootball:before, .ion-ios-americanfootball-outline:before, .ion-ios-analytics:before, .ion-ios-analytics-outline:before, .ion-ios-arrow-back:before, .ion-ios-arrow-down:before, .ion-ios-arrow-forward:before, .ion-ios-arrow-left:before, .ion-ios-arrow-right:before, .ion-ios-arrow-thin-down:before, .ion-ios-arrow-thin-left:before, .ion-ios-arrow-thin-right:before, .ion-ios-arrow-thin-up:before, .ion-ios-arrow-up:before, .ion-ios-at:before, .ion-ios-at-outline:before, .ion-ios-barcode:before, .ion-ios-barcode-outline:before, .ion-ios-baseball:before, .ion-ios-baseball-outline:before, .ion-ios-basketball:before, .ion-ios-basketball-outline:before, .ion-ios-bell:before, .ion-ios-bell-outline:before, .ion-ios-body:before, .ion-ios-body-outline:before, .ion-ios-bolt:before, .ion-ios-bolt-outline:before, .ion-ios-book:before, .ion-ios-book-outline:before, .ion-ios-bookmarks:before, .ion-ios-bookmarks-outline:before, .ion-ios-box:before, .ion-ios-box-outline:before, .ion-ios-briefcase:before, .ion-ios-briefcase-outline:before, .ion-ios-browsers:before, .ion-ios-browsers-outline:before, .ion-ios-calculator:before, .ion-ios-calculator-outline:before, .ion-ios-calendar:before, .ion-ios-calendar-outline:before, .ion-ios-camera:before, .ion-ios-camera-outline:before, .ion-ios-cart:before, .ion-ios-cart-outline:before, .ion-ios-chatboxes:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatbubble:before, .ion-ios-chatbubble-outline:before, .ion-ios-checkmark:before, .ion-ios-checkmark-empty:before, .ion-ios-checkmark-outline:before, .ion-ios-circle-filled:before, .ion-ios-circle-outline:before, .ion-ios-clock:before, .ion-ios-clock-outline:before, .ion-ios-close:before, .ion-ios-close-empty:before, .ion-ios-close-outline:before, .ion-ios-cloud:before, .ion-ios-cloud-download:before, .ion-ios-cloud-download-outline:before, .ion-ios-cloud-outline:before, .ion-ios-cloud-upload:before, .ion-ios-cloud-upload-outline:before, .ion-ios-cloudy:before, .ion-ios-cloudy-night:before, .ion-ios-cloudy-night-outline:before, .ion-ios-cloudy-outline:before, .ion-ios-cog:before, .ion-ios-cog-outline:before, .ion-ios-color-filter:before, .ion-ios-color-filter-outline:before, .ion-ios-color-wand:before, .ion-ios-color-wand-outline:before, .ion-ios-compose:before, .ion-ios-compose-outline:before, .ion-ios-contact:before, .ion-ios-contact-outline:before, .ion-ios-copy:before, .ion-ios-copy-outline:before, .ion-ios-crop:before, .ion-ios-crop-strong:before, .ion-ios-download:before, .ion-ios-download-outline:before, .ion-ios-drag:before, .ion-ios-email:before, .ion-ios-email-outline:before, .ion-ios-eye:before, .ion-ios-eye-outline:before, .ion-ios-fastforward:before, .ion-ios-fastforward-outline:before, .ion-ios-filing:before, .ion-ios-filing-outline:before, .ion-ios-film:before, .ion-ios-film-outline:before, .ion-ios-flag:before, .ion-ios-flag-outline:before, .ion-ios-flame:before, .ion-ios-flame-outline:before, .ion-ios-flask:before, .ion-ios-flask-outline:before, .ion-ios-flower:before, .ion-ios-flower-outline:before, .ion-ios-folder:before, .ion-ios-folder-outline:before, .ion-ios-football:before, .ion-ios-football-outline:before, .ion-ios-game-controller-a:before, .ion-ios-game-controller-a-outline:before, .ion-ios-game-controller-b:before, .ion-ios-game-controller-b-outline:before, .ion-ios-gear:before, .ion-ios-gear-outline:before, .ion-ios-glasses:before, .ion-ios-glasses-outline:before, .ion-ios-grid-view:before, .ion-ios-grid-view-outline:before, .ion-ios-heart:before, .ion-ios-heart-outline:before, .ion-ios-help:before, .ion-ios-help-empty:before, .ion-ios-help-outline:before, .ion-ios-home:before, .ion-ios-home-outline:before, .ion-ios-infinite:before, .ion-ios-infinite-outline:before, .ion-ios-information:before, .ion-ios-information-empty:before, .ion-ios-information-outline:before, .ion-ios-ionic-outline:before, .ion-ios-keypad:before, .ion-ios-keypad-outline:before, .ion-ios-lightbulb:before, .ion-ios-lightbulb-outline:before, .ion-ios-list:before, .ion-ios-list-outline:before, .ion-ios-location:before, .ion-ios-location-outline:before, .ion-ios-locked:before, .ion-ios-locked-outline:before, .ion-ios-loop:before, .ion-ios-loop-strong:before, .ion-ios-medical:before, .ion-ios-medical-outline:before, .ion-ios-medkit:before, .ion-ios-medkit-outline:before, .ion-ios-mic:before, .ion-ios-mic-off:before, .ion-ios-mic-outline:before, .ion-ios-minus:before, .ion-ios-minus-empty:before, .ion-ios-minus-outline:before, .ion-ios-monitor:before, .ion-ios-monitor-outline:before, .ion-ios-moon:before, .ion-ios-moon-outline:before, .ion-ios-more:before, .ion-ios-more-outline:before, .ion-ios-musical-note:before, .ion-ios-musical-notes:before, .ion-ios-navigate:before, .ion-ios-navigate-outline:before, .ion-ios-nutrition:before, .ion-ios-nutrition-outline:before, .ion-ios-paper:before, .ion-ios-paper-outline:before, .ion-ios-paperplane:before, .ion-ios-paperplane-outline:before, .ion-ios-partlysunny:before, .ion-ios-partlysunny-outline:before, .ion-ios-pause:before, .ion-ios-pause-outline:before, .ion-ios-paw:before, .ion-ios-paw-outline:before, .ion-ios-people:before, .ion-ios-people-outline:before, .ion-ios-person:before, .ion-ios-person-outline:before, .ion-ios-personadd:before, .ion-ios-personadd-outline:before, .ion-ios-photos:before, .ion-ios-photos-outline:before, .ion-ios-pie:before, .ion-ios-pie-outline:before, .ion-ios-pint:before, .ion-ios-pint-outline:before, .ion-ios-play:before, .ion-ios-play-outline:before, .ion-ios-plus:before, .ion-ios-plus-empty:before, .ion-ios-plus-outline:before, .ion-ios-pricetag:before, .ion-ios-pricetag-outline:before, .ion-ios-pricetags:before, .ion-ios-pricetags-outline:before, .ion-ios-printer:before, .ion-ios-printer-outline:before, .ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-rainy:before, .ion-ios-rainy-outline:before, .ion-ios-recording:before, .ion-ios-recording-outline:before, .ion-ios-redo:before, .ion-ios-redo-outline:before, .ion-ios-refresh:before, .ion-ios-refresh-empty:before, .ion-ios-refresh-outline:before, .ion-ios-reload:before, .ion-ios-reverse-camera:before, .ion-ios-reverse-camera-outline:before, .ion-ios-rewind:before, .ion-ios-rewind-outline:before, .ion-ios-rose:before, .ion-ios-rose-outline:before, .ion-ios-search:before, .ion-ios-search-strong:before, .ion-ios-settings:before, .ion-ios-settings-strong:before, .ion-ios-shuffle:before, .ion-ios-shuffle-strong:before, .ion-ios-skipbackward:before, .ion-ios-skipbackward-outline:before, .ion-ios-skipforward:before, .ion-ios-skipforward-outline:before, .ion-ios-snowy:before, .ion-ios-speedometer:before, .ion-ios-speedometer-outline:before, .ion-ios-star:before, .ion-ios-star-half:before, .ion-ios-star-outline:before, .ion-ios-stopwatch:before, .ion-ios-stopwatch-outline:before, .ion-ios-sunny:before, .ion-ios-sunny-outline:before, .ion-ios-telephone:before, .ion-ios-telephone-outline:before, .ion-ios-tennisball:before, .ion-ios-tennisball-outline:before, .ion-ios-thunderstorm:before, .ion-ios-thunderstorm-outline:before, .ion-ios-time:before, .ion-ios-time-outline:before, .ion-ios-timer:before, .ion-ios-timer-outline:before, .ion-ios-toggle:before, .ion-ios-toggle-outline:before, .ion-ios-trash:before, .ion-ios-trash-outline:before, .ion-ios-undo:before, .ion-ios-undo-outline:before, .ion-ios-unlocked:before, .ion-ios-unlocked-outline:before, .ion-ios-upload:before, .ion-ios-upload-outline:before, .ion-ios-videocam:before, .ion-ios-videocam-outline:before, .ion-ios-volume-high:before, .ion-ios-volume-low:before, .ion-ios-wineglass:before, .ion-ios-wineglass-outline:before, .ion-ios-world:before, .ion-ios-world-outline:before, .ion-ipad:before, .ion-iphone:before, .ion-ipod:before, .ion-jet:before, .ion-key:before, .ion-knife:before, .ion-laptop:before, .ion-leaf:before, .ion-levels:before, .ion-lightbulb:before, .ion-link:before, .ion-load-a:before, .ion-load-b:before, .ion-load-c:before, .ion-load-d:before, .ion-location:before, .ion-lock-combination:before, .ion-locked:before, .ion-log-in:before, .ion-log-out:before, .ion-loop:before, .ion-magnet:before, .ion-male:before, .ion-man:before, .ion-map:before, .ion-medkit:before, .ion-merge:before, .ion-mic-a:before, .ion-mic-b:before, .ion-mic-c:before, .ion-minus:before, .ion-minus-circled:before, .ion-minus-round:before, .ion-model-s:before, .ion-monitor:before, .ion-more:before, .ion-mouse:before, .ion-music-note:before, .ion-navicon:before, .ion-navicon-round:before, .ion-navigate:before, .ion-network:before, .ion-no-smoking:before, .ion-nuclear:before, .ion-outlet:before, .ion-paintbrush:before, .ion-paintbucket:before, .ion-paper-airplane:before, .ion-paperclip:before, .ion-pause:before, .ion-person:before, .ion-person-add:before, .ion-person-stalker:before, .ion-pie-graph:before, .ion-pin:before, .ion-pinpoint:before, .ion-pizza:before, .ion-plane:before, .ion-planet:before, .ion-play:before, .ion-playstation:before, .ion-plus:before, .ion-plus-circled:before, .ion-plus-round:before, .ion-podium:before, .ion-pound:before, .ion-power:before, .ion-pricetag:before, .ion-pricetags:before, .ion-printer:before, .ion-pull-request:before, .ion-qr-scanner:before, .ion-quote:before, .ion-radio-waves:before, .ion-record:before, .ion-refresh:before, .ion-reply:before, .ion-reply-all:before, .ion-ribbon-a:before, .ion-ribbon-b:before, .ion-sad:before, .ion-sad-outline:before, .ion-scissors:before, .ion-search:before, .ion-settings:before, .ion-share:before, .ion-shuffle:before, .ion-skip-backward:before, .ion-skip-forward:before, .ion-social-android:before, .ion-social-android-outline:before, .ion-social-angular:before, .ion-social-angular-outline:before, .ion-social-apple:before, .ion-social-apple-outline:before, .ion-social-bitcoin:before, .ion-social-bitcoin-outline:before, .ion-social-buffer:before, .ion-social-buffer-outline:before, .ion-social-chrome:before, .ion-social-chrome-outline:before, .ion-social-codepen:before, .ion-social-codepen-outline:before, .ion-social-css3:before, .ion-social-css3-outline:before, .ion-social-designernews:before, .ion-social-designernews-outline:before, .ion-social-dribbble:before, .ion-social-dribbble-outline:before, .ion-social-dropbox:before, .ion-social-dropbox-outline:before, .ion-social-euro:before, .ion-social-euro-outline:before, .ion-social-facebook:before, .ion-social-facebook-outline:before, .ion-social-foursquare:before, .ion-social-foursquare-outline:before, .ion-social-freebsd-devil:before, .ion-social-github:before, .ion-social-github-outline:before, .ion-social-google:before, .ion-social-google-outline:before, .ion-social-googleplus:before, .ion-social-googleplus-outline:before, .ion-social-hackernews:before, .ion-social-hackernews-outline:before, .ion-social-html5:before, .ion-social-html5-outline:before, .ion-social-instagram:before, .ion-social-instagram-outline:before, .ion-social-javascript:before, .ion-social-javascript-outline:before, .ion-social-linkedin:before, .ion-social-linkedin-outline:before, .ion-social-markdown:before, .ion-social-nodejs:before, .ion-social-octocat:before, .ion-social-pinterest:before, .ion-social-pinterest-outline:before, .ion-social-python:before, .ion-social-reddit:before, .ion-social-reddit-outline:before, .ion-social-rss:before, .ion-social-rss-outline:before, .ion-social-sass:before, .ion-social-skype:before, .ion-social-skype-outline:before, .ion-social-snapchat:before, .ion-social-snapchat-outline:before, .ion-social-tumblr:before, .ion-social-tumblr-outline:before, .ion-social-tux:before, .ion-social-twitch:before, .ion-social-twitch-outline:before, .ion-social-twitter:before, .ion-social-twitter-outline:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-social-vimeo:before, .ion-social-vimeo-outline:before, .ion-social-whatsapp:before, .ion-social-whatsapp-outline:before, .ion-social-windows:before, .ion-social-windows-outline:before, .ion-social-wordpress:before, .ion-social-wordpress-outline:before, .ion-social-yahoo:before, .ion-social-yahoo-outline:before, .ion-social-yen:before, .ion-social-yen-outline:before, .ion-social-youtube:before, .ion-social-youtube-outline:before, .ion-soup-can:before, .ion-soup-can-outline:before, .ion-speakerphone:before, .ion-speedometer:before, .ion-spoon:before, .ion-star:before, .ion-stats-bars:before, .ion-steam:before, .ion-stop:before, .ion-thermometer:before, .ion-thumbsdown:before, .ion-thumbsup:before, .ion-toggle:before, .ion-toggle-filled:before, .ion-transgender:before, .ion-trash-a:before, .ion-trash-b:before, .ion-trophy:before, .ion-tshirt:before, .ion-tshirt-outline:before, .ion-umbrella:before, .ion-university:before, .ion-unlocked:before, .ion-upload:before, .ion-usb:before, .ion-videocamera:before, .ion-volume-high:before, .ion-volume-low:before, .ion-volume-medium:before, .ion-volume-mute:before, .ion-wand:before, .ion-waterdrop:before, .ion-wifi:before, .ion-wineglass:before, .ion-woman:before, .ion-wrench:before, .ion-xbox:before {
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+@media (min-width: 768px)
+{body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-left: 250px;
 }}
-.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+.main-footer {
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+    color: #869099;
+    padding: 1rem;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.float-right {
+    float: right!important;
+}
+// @media (min-width: 992px)
+// {.col-lg-6 {
+//     -ms-flex: 0 0 50%;
+//     flex: 0 0 50%;
+//     max-width: 50%;
+// }}
+// @media (min-width: 768px)
+// {.col-md-12 {
+//     -ms-flex: 0 0 100%;
+//     flex: 0 0 100%;
+//     max-width: 100%;
+// }}
+// .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+//     position: relative;
+//     width: 100%;
+//     padding-right: 7.5px;
+//     padding-left: 7.5px;
+// }
+
+
+
+.bg-gradient-primary>.card-header .btn-tool:hover, .bg-primary>.card-header .btn-tool:hover, .card-primary:not(.card-outline)>.card-header .btn-tool:hover {
+    color: #fff;
+}
+.bg-gradient-success>.card-header .btn-tool:hover, .bg-success>.card-header .btn-tool:hover, .card-success:not(.card-outline)>.card-header .btn-tool:hover {
+    color: #fff;
+}
+.bg-gradient-warning>.card-header .btn-tool:hover, .bg-warning>.card-header .btn-tool:hover, .card-warning:not(.card-outline)>.card-header .btn-tool:hover {
+    color: #1f2d3d;
+}
+.bg-danger>.card-header .btn-tool:hover, .bg-gradient-danger>.card-header .btn-tool:hover, .card-danger:not(.card-outline)>.card-header .btn-tool:hover {
+    color: #fff;
+}
+.btn-group.show .btn-tool, .btn-tool:hover {
+    color: #495057;
+}
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.btn-warning:hover {
+    color: #1f2d3d;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+.nav-link:focus, .nav-link:hover {
+    text-decoration: none;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+.btn-default.hover, .btn-default:active, .btn-default:hover {
+    background-color: #e9ecef;
+    color: #2b2b2b;
+}
+.btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.btn-default {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+    color: #444;
+}
+.btn-group-sm>.btn, .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: inset 0 0 0 transparent;
+}
+a.text-primary:focus, a.text-primary:hover {
+    color: #0056b3!important;
+}
+
+.small-box:hover {
+    text-decoration: none;
+}
+.bg-info, .bg-info>a {
+    color: #fff!important;
+}
+.bg-info {
+    background-color: #17a2b8!important;
+}
+.small-box {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    display: block;
+    margin-bottom: 20px;
     position: relative;
-    width: 100%;
-    padding-right: 7.5px;
-    padding-left: 7.5px;
+}
+.bg-info {
+    background-color: #17a2b8!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+.small-box:hover .icon>i, .small-box:hover .icon>i.fa, .small-box:hover .icon>i.fab, .small-box:hover .icon>i.fad, .small-box:hover .icon>i.fal, .small-box:hover .icon>i.far, .small-box:hover .icon>i.fas, .small-box:hover .icon>i.ion {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.card .overlay.dark>.fa, .card .overlay.dark>.fab, .card .overlay.dark>.fad, .card .overlay.dark>.fal, .card .overlay.dark>.far, .card .overlay.dark>.fas, .card .overlay.dark>.ion, .card .overlay.dark>.svg-inline--fa, .info-box .overlay.dark>.fa, .info-box .overlay.dark>.fab, .info-box .overlay.dark>.fad, .info-box .overlay.dark>.fal, .info-box .overlay.dark>.far, .info-box .overlay.dark>.fas, .info-box .overlay.dark>.ion, .info-box .overlay.dark>.svg-inline--fa, .overlay-wrapper .overlay.dark>.fa, .overlay-wrapper .overlay.dark>.fab, .overlay-wrapper .overlay.dark>.fad, .overlay-wrapper .overlay.dark>.fal, .overlay-wrapper .overlay.dark>.far, .overlay-wrapper .overlay.dark>.fas, .overlay-wrapper .overlay.dark>.ion, .overlay-wrapper .overlay.dark>.svg-inline--fa, .small-box .overlay.dark>.fa, .small-box .overlay.dark>.fab, .small-box .overlay.dark>.fad, .small-box .overlay.dark>.fal, .small-box .overlay.dark>.far, .small-box .overlay.dark>.fas, .small-box .overlay.dark>.ion, .small-box .overlay.dark>.svg-inline--fa {
+    color: #ced4da;
 }

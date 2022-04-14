@@ -1,0 +1,42 @@
+<header class="jumbotron" style="padding: 2%; border-radius: 0;">
+    <h1 class="text-center"> {{'login.title' | translate }} </h1>
+  </header>
+  <div class="container">
+    <div class="">
+      <div class=""></div>
+      <div class="main">
+        <div class="form-group">
+          <label> {{ 'login.username.label' | translate }} </label>
+          <input type="text" name="userName" placeholder="{{ 'login.username.placeholder' | translate }}" class="form-control">
+        </div>
+  <br>
+        <div class="form-group">
+          <label> {{ 'login.password.label' | translate }} </label>
+          <input type="password" name="passWord" placeholder="{{ 'login.password.placeholder' | translate }}" class="form-control">
+        </div>
+  <br>
+        <div class="form-group">
+          <button class="btn btn-success"> {{'login.button.name' | translate }} </button>
+        </div>
+  
+      <br>  <div class="form-group">
+          <label> <a href="#" class="" style="float: left;"> {{'login.register.link' | translate}} </a> </label>
+          <br />
+          <label> <a href="#" class="" style="float: right;"> {{'login.forgotpassword.link' | translate}} </a> </label>
+          <br />
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary me-2" (click)="useLanguage('ta')">  {{'login.button.ta' | translate}}  </button>
+            <button type="button" class="btn btn-primary me-2" (click)="useLanguage('fr')">  {{'login.button.fr' | translate}}  </button>
+            <button type="button" class="btn btn-primary me-2" (click)="useLanguage('zh')">  {{'login.button.zh' | translate}}  </button>
+            <button type="button" class="btn btn-primary" (click)="useLanguage('en')"> {{'login.button.en' | translate}} </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6"></div>
+    </div>
+  </div>
+
+
+
+  
+
